@@ -175,17 +175,17 @@ bool MultiUshortImage::GaussPyramidImage(MultiUshortImage *pOutPyramid, MultiSho
 {
 	int nWidth[12], nHeight[12];
 	MultiUshortImage  TempImage;
-	printf("input nPyramidLevel=%d\n", nPyramidLevel);
+	//printf("input nPyramidLevel=%d\n", nPyramidLevel);
 	pOutPyramid[0].Clone(this);
 	for (int i = 0; i < nPyramidLevel; i++)
 	{
 		nWidth[i] = pOutPyramid[i].GetImageWidth();
 		nHeight[i] = pOutPyramid[i].GetImageHeight();
-		printf("Level=%d Size=[%d,%d]\n", i, nWidth[i], nHeight[i]);
+		//printf("Level=%d Size=[%d,%d]\n", i, nWidth[i], nHeight[i]);
 		if (nWidth[i] <= 4 || nHeight[i] <= 4)
 		{
 			nPyramidLevel = i;
-			printf("out PyramidLevel=%d\n", nPyramidLevel);
+			//printf("out PyramidLevel=%d\n", nPyramidLevel);
 			break;
 		}	
 		if ((nWidth[i] & 1) == 1 || (nHeight[i] & 1) == 1)

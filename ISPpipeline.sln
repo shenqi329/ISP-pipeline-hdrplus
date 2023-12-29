@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.705
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Layer", "Layer\Layer.vcxproj", "{2007BF9B-69FA-4959-875F-1B08F5056C2D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mat", "Mat\Mat.vcxproj", "{588FDC9A-0C91-4B9B-B91B-EC1F3EFF08E2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ISPpipeline", "ISPpipeline\ISPpipeline.vcxproj", "{1444C6FF-723A-4037-AC59-1C2A4A9C5D9F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2007BF9B-69FA-4959-875F-1B08F5056C2D} = {2007BF9B-69FA-4959-875F-1B08F5056C2D}
+		{588FDC9A-0C91-4B9B-B91B-EC1F3EFF08E2} = {588FDC9A-0C91-4B9B-B91B-EC1F3EFF08E2}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

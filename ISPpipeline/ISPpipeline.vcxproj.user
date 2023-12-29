@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LocalDebuggerCommandArguments>burst23_0.txt burst23_0.raw burst23_1.raw burst23_2.raw burst23_3.raw burst23_4.raw burst23_5.raw burst23_6.raw burst23_7.raw</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>burst33_3.txt burst33_3.raw burst33_5.raw burst33_6.raw</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerWorkingDirectory>$(ProjectDir)/../data/</LocalDebuggerWorkingDirectory>
     <LocalDebuggerEnvironment>$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommandArguments>0.raw</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>burst33_3.txt burst33_3.raw burst33_5.raw burst33_6.raw</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerWorkingDirectory>$(ProjectDir)/../data/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
